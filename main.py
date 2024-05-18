@@ -104,7 +104,7 @@ pygame.gfxdraw.filled_circle(BALL_IMG, BALL_RADIUS, BALL_RADIUS, BALL_RADIUS, WH
 BALL_SPEED = 8
 BALL_RANDOMNESS = 30
 
-PLAY_WITH_KEYBOARD = True
+PLAY_WITH_KEYBOARD = False
 # ball movement is represented as an angle: 0 -> up, 90 -> right ...
 allowed_ball_movements = [x for x in range(30, 151)] + \
                          [x for x in range(210, 331)]  # Want the ball to keep moving horizontally
